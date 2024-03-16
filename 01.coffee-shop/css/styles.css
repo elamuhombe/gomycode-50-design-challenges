@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  font-size: 16px;
+}
+/* Style Wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin-inline: auto;
+}
+.wrapper > section {
+  width: 100%;
+}
+/* Style Hero section */
+.hero {
+  display: flex;
+}
+/* Style Hero content */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/* Style h1 */
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  display: flex;
+  flex-direction: column;
+}
+/* Style hero-text */
+.hero-text {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.2rem;
+}
+/* Style CTA button */
+.cta-button {
+  background-color: #a36a4f;
+  padding: 1.5rem 3rem;
+  border-radius: 20rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+/* Style Hero images */
+.hero-images {
+  flex: 1;
+  position: relative;
+  padding: 2rem;
+}
+.hero-images img {
+  border-radius: 100%;
+  width: 80%;
+}
+/* Style Coffee glass */
+.hero-images .coffee-glass {
+  position: absolute;
+  right: 20%;
+  top: 70%;
+  width: 40%;
+}
+
+/* Style Coffee cup */
+.hero-images .coffee-cup {
+  position: absolute;
+  top: 25%;
+}
+/* Style Stats section */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ecdac4;
+  padding: 2rem 4rem;
+  width: fit-content;
+  max-width: 70%;
+  height: fit-content;
+  border-radius: 50px;
+  gap: 15px;
+  position: absolute;
+  top: 70%;
+  /* right: 30%; */
+  left: calc(50% - 35%);
+  margin-top: 4rem;
+}
+/* Style Stats items */
+.stats-item {
+  padding: 1rem;
+  max-width: 25%;
+}
+/* Style card list */
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #363032;
+  padding: 2rem;
+  margin: 17rem 0;
+  height: fit-content;
+}
+/* Styles for card-item */
+.card-item {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding-top: 10px;
+  flex: 1;
+  overflow: hidden;
+}
+/* Tablet Screen Size */
+@media screen and (min-width: 768px) {
+  /* CSS rules for tablets */
+  body {
+    font-size: 14px;
+  }
+  /* hero images */
+  .hero-images .coffee-cup {
+    width: 60%;
+  }
+}
+
+/* Smartphone Screen Size */
+
