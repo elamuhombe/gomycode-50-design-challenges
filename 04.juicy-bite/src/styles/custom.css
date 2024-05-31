@@ -1,0 +1,8 @@
+
+body{
+    background-color: #080c15;
+}
+.left-hero-image{
+    background-image: url('./../images/hamburger-background-image.png');
+    background-repeat: no-repeat;
+}
