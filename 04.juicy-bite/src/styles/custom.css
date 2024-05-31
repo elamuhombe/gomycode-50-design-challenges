@@ -6,3 +6,12 @@ body{
     background-image: url('./../images/hamburger-background-image.png');
     background-repeat: no-repeat;
 }
+.custom-gradient {
+    background: linear-gradient(to right, #d1d5db 40%, #4b5563 40%);
+
+}
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+   
+}
